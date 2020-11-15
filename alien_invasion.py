@@ -29,7 +29,7 @@ def run_game():
         (ai_settings.screen_width, ai_settings.screen_height))
 
     # 设置窗口的标题
-    pygame.display.set_caption("Alien Invasion")
+    pygame.display.set_caption("Alien Invasion          Direction: Left and right arrows       Fire: Space key        Exit: Q                   @Author: A.J.Fikry")
 
     # 创建Play按钮
     play_button = Button(ai_settings, screen, "Play")
@@ -41,7 +41,7 @@ def run_game():
     # 创建一艘飞船、一个子弹编组和一个外星人编组
     ship = Ship(ai_settings, screen)
     bullets = Group()
-    aliens = Group()
+    aliens = Group() 
 
     # 创建外星人人群
     gf.creat_fleet(ai_settings, screen, ship, aliens)

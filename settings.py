@@ -23,14 +23,14 @@ class Settings():
 
         # 子弹设置
         self.bullet_speed_factor = 1 # 官方是1
-        self.bullet_width = 300 # 官方是3
+        self.bullet_width = 4 # 官方是3
         self.bullet_height = 15
         self.bullet_color = 60, 60, 60
         self.bullets_allowed = 5
 
         # 外星人设置
         self.alien_speed_factor = 0.3
-        self.fleet_drop_speed = 30 # 官方是10
+        self.fleet_drop_speed = 8 # 官方是10
         self.fleet_direction = 1 # 1表示向右移，为-1表示向左移
 
         # 以什么样的速度加快游戏节奏
